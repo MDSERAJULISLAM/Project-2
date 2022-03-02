@@ -1,0 +1,743 @@
+/* @media (min-width: 1400px){} (extra large)
+@media (min-width: 1200px) and (max-width: 1399.98px) {} (extra large)
+@media (min-width: 992px) and (max-width: 1199.98px) {}(large)
+@media (min-width: 768px) and (max-width: 991.98px) {}(medium)
+@media (min-width: 576px) and (max-width: 767.98px) {} (small)
+@media (max-width: 575.98px) {}(extrra- small) */
+@media (max-width: 575.98px){
+    #main_menu {
+        margin-top: 30px;
+    }
+    #main_menu .navbar-brand {
+        width: 45%;
+    }
+    #main_menu .navbar-brand img{
+        width: 100%;
+    }
+    #main_menu .bar_btn{
+        color: #fff;
+        height: auto;
+        font-size: 30px;
+    }
+    #main_menu .navbar-toggler{
+        box-shadow: none;
+    }
+    #main_menu ul{
+        background-color: black;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+/* ================================================menu part end=================================== */
+/* ================================================banner_part start=================================== */
+.main_overlay .add_box {
+	width: 58vh;
+	height: 229px;
+}
+.main_overlay .add_box .text h3 {
+	font-size: 33px;
+}
+.main_overlay .add_box p {
+	font-size: 27px;
+}
+#banner_part .banner_slider .banner {
+    padding-top: 130px;
+    padding-bottom: 75px;
+}
+#banner_part {
+    text-align: left;
+}
+#banner_part .banner_slider .banner .text h1 {
+	font-size: 40px;
+    padding-bottom: 11px !important;
+}
+#banner_part .banner_slider .banner .text h2 {
+	font-size: 22px;
+	padding-bottom: 30px !important;
+}
+#banner_part .banner_slider .banner .text h2::after {
+	left: 0;
+    width: 150px;
+}
+#banner_part .banner_slider .banner .text p {
+	width: auto;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+#banner_part .banner_slider .banner .text a {
+	padding: 5px 10px 5px 33px;
+	font-size: 14px;
+    margin-left: 10px;
+}
+#banner_part .banner_slider .banner .text a span {
+	font-size: 15px;
+}
+#banner_part .banner_slider .banner .text a i {
+	font-size: 30px;
+	left: 5px;
+}
+#banner_part .slick-dots {
+    top: auto;
+    position: absolute;
+	bottom: 0 !important;
+    left: 50%;
+    display: flex;
+	transform: translateX(-50%) !important;
+}
+#banner_part .slick-dots li{
+    display: inline-block;
+    margin-right: 10px;
+}
+/* ================================================banner_part end=================================== */
+/* ================================================About_part start=================================== */
+#about_part {
+	padding-top: 18px;
+	padding-bottom: 10px;
+}
+#about_part .text p {
+	text-align: justify;
+    line-height: 17px
+}
+#about_part .text p span {
+	padding-top: 13px !important;
+	padding-bottom: 10px;
+}
+/* ================================================About_part end=================================== */
+/* ================================================feather_part start=================================== */
+#feture {
+	padding: 25px 0;
+}
+#feture .header {
+	padding-bottom: 16px;
+}
+#feture .header h3 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+#feture .fatures_btn p i {
+	font-size: 30px;
+}
+#feture .fatures_btn p {
+	font-size: 15px;
+	padding-left: 44px;
+	margin-bottom: 25px;
+}
+#feture .nav-link {
+	
+	padding: 0 !important;
+}
+#feture .fatures_btn p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+#feture .fatures_btn span {
+	padding-top: 7px;
+}
+#feture .fatures_btn p span {
+	font-size: 13px;
+}
+#feture .img{
+    display: none;
+}
+#feture .fatures_details .details{
+    flex: none;
+    padding: 0 !important;
+}
+#feture .fatures_details .details .text h3 {   
+	padding-bottom: 20px;
+}
+#feture .fatures_details .details .text p {
+	width: 100%;
+    text-align: justify;
+}
+#feture .fatures_details .details .text {
+	width: 100%;
+    padding: 0 !important;
+}
+#feture .fatures_btn p::before {
+	width: 40%;
+}
+#feture .fatures_btn .active p::before {
+	width: 70%;
+}
+#feture .fatures_details .details .text h3 {
+	padding-bottom: 20px;
+    text-align: center;
+}
+#feture .fatures_details .details .text h3 {
+	color: #744fa0;
+}
+/* ================================================feather_part end=================================== */
+/* ================================================skinshort_part start=================================== */
+#shection_part {
+	padding: 20px 0;
+}
+#shection_part .mm{
+    padding-top: 30px;
+}
+/* ================================================skinshort_part end=================================== */
+/* ================================================video_part start=================================== */
+#video_part {
+	padding: 132px 0;
+	background-attachment: fixed;
+}
+/* ================================================video_part end=================================== */
+/* ================================================pricet_part start=================================== */
+#price_part {
+	padding: 17px 0;
+}
+#price_part img {
+	padding-bottom: 26px;
+}
+#price_part .row .item {
+	margin-top: 30px;
+}
+/* ================================================price_part end=================================== */
+/* ================================================team_part start=================================== */
+#team_part{
+    padding-top: 20px;
+}
+#team_part .header img {
+	padding-bottom: 50px;
+}
+#team_part .futter img {
+	padding-bottom: 10px;
+}
+#team_part .main {
+	margin: 50px 0;
+}
+#team_part .main .text h4 {
+	font-size: 10;
+    padding-top: 5px;
+}
+#team_part .main .text h3 {
+	font-size: 12;
+    padding-top: 30px;
+}
+#team_part .main .text p {
+	font-size: 10;
+}
+#team_part .main .text {
+	padding: 20px 0 10px 0;
+}
+#team_part .futter {
+	padding-top: 50px;
+}
+#team_part {
+	padding-bottom: 0px;
+}
+/* ================================================team_part end=================================== */
+/* ================================================feedback_part start=================================== */
+#featback_part .img_slider .img {
+	height: 80px;
+	width: 80px;
+}
+#featback_part .featback_test_slider .item p {
+	font-size: 13px;
+	/* text-align: justify; */
+}
+#featback_part .featback_test_slider .item {
+	padding: 10px;
+	margin-bottom: 10;
+}
+#featback_part {
+	padding-bottom: 0px !important;
+	
+}
+/* ================================================feedback_part end=================================== */
+/* ================================================input_part start=================================== */
+#input_text {
+	padding: 10px 0;
+}
+#input_text .header img {
+	padding-bottom: 40px;
+}
+#futter i {
+	font-size: 17px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	line-height: 35px;
+	margin: 5px 0px;
+}
+#futter .logo {
+	text-align: center;
+	width: 90%;
+}
+#futter p{
+	font-size: 13px;
+}
+#featback_part {
+	padding: 30px 0;
+}
+/* ================================================input_part end=================================== */
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #main_menu {
+        margin-top: 30px;
+    }
+    #main_menu .navbar-brand {
+        width: 45%;
+    }
+    #main_menu .navbar-brand img{
+        width: 100%;
+    }
+    #main_menu .bar_btn{
+        color: #fff;
+        height: auto;
+        font-size: 30px;
+    }
+    #main_menu .navbar-toggler{
+        box-shadow: none;
+    }
+    #main_menu ul{
+        background-color: black;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+/* ================================================menu part end=================================== */
+/* ================================================banner_part start=================================== */
+.main_overlay .add_box {
+	width: 60vh;
+	height: 230px;
+}
+.main_overlay .add_box .text h3 {
+	font-size: 40px;
+}
+.main_overlay .add_box p {
+	font-size: 30px;
+}
+#banner_part .banner_slider .banner {
+    padding-top: 130px;
+    padding-bottom: 75px;
+}
+#banner_part {
+    text-align: left;
+}
+#banner_part .banner_slider .banner .text h1 {
+	font-size: 50px;
+    padding-bottom: 11px !important;
+}
+#banner_part .banner_slider .banner .text h2 {
+	font-size: 30px;
+	padding-bottom: 40px !important;
+}
+#banner_part .banner_slider .banner .text h2::after {
+	left: 0;
+    width: 200px;
+}
+#banner_part .banner_slider .banner .text p {
+	width: auto;
+	font-size: 15px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+#banner_part .banner_slider .banner .text a {
+	padding: 6px 13px 8px 40px;
+	font-size: 14px;
+    margin-left: 10px;
+}
+#banner_part .banner_slider .banner .text a span {
+	font-size: 16px;
+}
+#banner_part .banner_slider .banner .text a i {
+	font-size: 32px;
+	left: 5px;
+}
+#banner_part .slick-dots {
+    top: auto;
+    position: absolute;
+	bottom: 0 !important;
+    left: 50%;
+    display: flex;
+	transform: translateX(-50%) !important;
+}
+#banner_part .slick-dots li{
+    display: inline-block;
+    margin-right: 10px;
+}
+/* ================================================banner_part end=================================== */
+/* ================================================About_part start=================================== */
+#about_part {
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+#about_part .text p {
+	text-align: left;
+    line-height: 17px;
+	font-size: 15px;
+}
+#about_part .text p span {
+	padding-top: 15px !important;
+	padding-bottom: 20px;
+}
+/* ================================================About_part end=================================== */
+/* ================================================feather_part start=================================== */
+#feture {
+	padding: 20px 0;
+}
+#feture .header {
+	padding-bottom: 16px;
+}
+#feture .header h3 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+#feture .fatures_btn p i {
+	font-size: 30px !important;
+}
+#feture .fatures_details .details .text p {
+	/* width: auto; */
+	text-align: justify;
+}
+#feture .fatures_btn p {
+	font-size: 14px;
+	margin-bottom: 14px;
+}
+#feture .nav-link {
+	
+	padding: 0 !important;
+}
+#feture .fatures_btn p {
+	font-size: 14px;
+	margin-bottom: 20px;
+	display: block;
+	padding: 0px 0px 0px 18px;
+}
+#feture .fatures_btn p i {
+	left: -24px;
+}
+#feture .fatures_btn span {
+	padding-top: 7px;
+}
+.me-3 {
+	margin-right: 0 !important;
+}
+#feture .fatures_btn p span {
+	font-size: 12px;
+}
+#feture .img{
+    display: none;
+}
+#feture .fatures_details .details{
+    flex: none;
+    padding: 0 !important;
+}
+#feture .fatures_details .details .text h3 {   
+	padding-bottom: 20px;
+}
+#feture .fatures_details .details .text {
+	width: 100%;
+	padding: 0px !important;
+	margin: 0 !important;
+}
+#feture .fatures_btn p::before {
+	width: 40%;
+}
+#feture .fatures_btn .active p::before {
+	width: 70%;
+}
+#feture .fatures_details .details .text h3 {
+	padding-bottom: 18px;
+    text-align: center;
+}
+#feture .fatures_details .details .text h3 {
+	color: #744fa0;
+}
+/* ================================================feather_part end=================================== */
+/* ================================================skinshort_part start=================================== */
+#shection_part {
+	padding: 20px 0;
+}
+#shection_part .mm{
+    padding-top: 30px;
+}
+/* ================================================skinshort_part end=================================== */
+/* ================================================video_part start=================================== */
+#video_part {
+	padding: 132px 0;
+	background-attachment: fixed;
+}
+/* ================================================video_part end=================================== */
+/* ================================================pricet_part start=================================== */
+#price_part {
+	padding: 15px 0;
+}
+#price_part img {
+	padding-bottom: 20px;
+}
+#price_part .row .item {
+	margin-top: 25px;
+}
+/* ================================================price_part end=================================== */
+/* ================================================team_part start=================================== */
+#team_part{
+    padding-top: 20px;
+}
+#team_part .header img {
+	padding-bottom: 50px;
+}
+#team_part .futter img {
+	padding-bottom: 10px;
+}
+#team_part .main {
+	margin: 50px 0;
+}
+#team_part .main .text h4 {
+	font-size: 10;
+    padding-top: 5px;
+}
+#team_part .main .text h3 {
+	font-size: 12;
+    padding-top: 30px;
+}
+#team_part .main .text p {
+	font-size: 10;
+}
+#team_part .main .text {
+	padding: 20px 0 10px 0;
+}
+#team_part .futter {
+	padding-top: 50px;
+}
+#team_part {
+	padding-bottom: 0px;
+}
+/* ================================================team_part end=================================== */
+/* ================================================feedback_part start=================================== */
+#featback_part .img_slider .img {
+	height: 80px;
+	width: 80px;
+}
+#featback_part .featback_test_slider .item p {
+	font-size: 13px;
+	/* text-align: justify; */
+}
+#featback_part .featback_test_slider .item {
+	padding: 10px;
+	margin-bottom: 10;
+}
+#featback_part {
+	padding-bottom: 0px !important;
+	
+}
+/* ================================================feedback_part end=================================== */
+/* ================================================input_part start=================================== */
+#input_text {
+	padding: 10px 0;
+}
+#input_text .header img {
+	padding-bottom: 40px;
+}
+#futter i {
+	font-size: 17px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	line-height: 35px;
+	margin: 5px 0px;
+}
+#futter .logo {
+	text-align: center;
+	width: 90%;
+}
+#futter p{
+	font-size: 13px;
+}
+#featback_part {
+	padding: 30px 0;
+}
+/* ================================================input_part end=================================== */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* ======================menu part start=============== */
+	#main_menu {
+        margin-top: 30px;
+    }
+    #main_menu .navbar-brand {
+        width: 45%;
+    }
+    #main_menu .navbar-brand img{
+        width: 100%;
+    }
+    #main_menu .bar_btn{
+        color: #fff;
+        height: auto;
+        font-size: 30px;
+    }
+    #main_menu .navbar-toggler{
+        box-shadow: none;
+    }
+    #main_menu ul{
+        background-color: black;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+	/* ======================menu part end=============== */
+	/* ======================banner_part================= */
+	.main_overlay .add_box {
+		width: 60vh;
+		height: 240px;
+	}
+	.main_overlay .add_box .text h3 {
+		font-size: 40px;
+	}
+	.main_overlay .add_box p {
+		font-size: 35px;
+	}
+	#banner_part .slick-dots {
+		top: auto;
+		position: absolute;
+		bottom: 0 !important;
+		display: flex;
+		transform: translateX(-50%) !important;
+	}
+	#banner_part .slick-dots li{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	#banner_part .banner_slider .banner {
+		padding-top: 130px;
+		padding-bottom: 100px;
+	}
+	/* ==============================banner_part end============== */
+	/* ==============================About_part start============== */
+	#about_part {
+		padding-top: 70px;
+		padding-bottom: 0px;
+	}
+	#about_part .text p {
+		font-size: 16px;
+	}
+	/* ==============================About_part end============== */
+	/* ==============================feather_part start============== */
+	#feture {
+		padding: 40px 0 30px 0;
+	}
+	#feture .fatures_details .details .img img{
+		width: 130%;
+	 } 
+	/* ==============================feather_part end============== */
+	/* ==============================skinshort_part stat============== */
+	#shection_part {
+		padding: 26px 0;
+	}
+	#shection_part .img img {
+		padding-top: 20px;
+	}
+	/* ==============================skinshort_part end============== */
+	/* ==============================price_part start============== */
+	#price_part {
+		padding: 35px 0;
+	}
+	#price_part img {
+		padding-bottom: 18px;
+	}
+	#price_part .row .item {
+		margin-bottom: 40px;
+	}
+	/* ==============================price_part end============== */
+	/* =============================team_part start============== */
+	#team_part .header img {
+		padding-bottom: 60px;
+	}
+	/* =============================team_part end============== */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ======banner_part start==================== */
+	#main_menu {
+		margin-top: 31px;
+	}
+
+ #banner_part .text{
+	 padding-right: 30px;
+ }
+ #banner_part .banner_slider .banner .text h1 {
+	font-size: 52px;
+	padding-bottom: 12px !important;
+}
+#banner_part .banner_slider .banner .text h2 {
+	font-size: 27px;
+	padding-bottom: 43px !important;
+}
+#banner_part .banner_slider .banner .text p {
+	margin-bottom: 34px;
+}
+#banner_part .banner_slider .banner .text a {
+	padding: 6px 25px 8px 57px;
+}
+#banner_part .banner_slider .banner {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+	/* ======banner_part end==================== */
+	/* ======About_part start==================== */
+	#about_part {
+		padding-top: 65px;
+		padding-bottom: 23px;
+	}	
+	/* ======About_part end==================== */
+	/* ======feather_part start==================== */
+	#feture .header h3 {
+		padding-bottom: 0px;
+	}
+	#feture .img img{
+		/* width: 100%; */
+	}
+	#feture .fatures_details .details .text p {
+		font-size: 16px;
+		width: 100%;
+		text-align: justify;
+	}
+	#feture .fatures_details .details .text {
+		width: 40%;
+	   padding-top: 0px;
+	}
+	#feture .fatures_btn p i {
+		font-size: 35px;
+	}
+	#feture .fatures_btn p {
+		font-size: 16px;
+		padding-left: 54px;
+		margin-bottom: 17px;
+	}
+	#feture .fatures_btn p span {
+		font-size: 13px;
+	}
+	/* ======feather_part end==================== */
+	/* ======shikinshort_part start==================== */
+	#shection_part .header img{
+		padding-bottom: 40px;
+	}
+	/* ======shikinshort_part end==================== */
+	/* ======price_part start==================== */
+	#price_part {
+		padding: 60px 0;
+	}
+	#price_part .row .item .button {
+		right: 29%;
+	}
+	#price_part .row .item .price {
+		padding: 11px 47px;
+	}
+	#price_part .row .item .details {	
+		width: auto;
+	}
+	#price_part img {
+		padding-bottom: 50px;
+	}
+	/* ======price_part end==================== */
+	/* ======team_part start==================== */
+	#team_part .header img {
+		padding-bottom: 83px;
+	}
+	/* ======team_part end==================== */
+	/* ======input_part start==================== */
+	#input_text {
+		padding: 38px 0px;
+		text-align: center;
+	}
+	/* ======input_part end==================== */
+}
